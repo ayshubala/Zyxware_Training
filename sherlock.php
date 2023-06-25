@@ -29,7 +29,7 @@ while ($t--)
       $n = intval(trim(fgets(STDIN)));
 
 
-  $arr = array_map('intval', explode(' ', trim(fgets(STDIN))));
+      $arr = array_map('intval', explode(' ', trim(fgets(STDIN))));
 
 
       $result = sherlock($arr);
